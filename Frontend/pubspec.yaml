@@ -1,0 +1,54 @@
+name: failed_in
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+  font_awesome_flutter: ^9.1.0
+  http: any
+  validators: ^3.0.0
+  shared_preferences: ^2.0.6
+  textfield_tags: ^1.4.2
+  image_picker: any
+  image_cropper: ^1.4.1
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_reaction_button: any
+  flutter_dialogflow: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/credentials.json
+ 
+  fonts:
+    - family: CarosSoft
+      fonts:
+        - asset: fonts/CarosSoft/CarosSoft.ttf
+        - asset: fonts/CarosSoft/CarosSoft-Italic.ttf
+        - asset: fonts/CarosSoft/CarosSoftBlack.ttf
+        - asset: fonts/CarosSoft/CarosSoftBold.ttf
+        - asset: fonts/CarosSoft/CarosSoftExtraBold.ttf
+        - asset: fonts/CarosSoft/CarosSoftExtraLight.ttf
+        - asset: fonts/CarosSoft/CarosSoftHeavy.ttf
+        - asset: fonts/CarosSoft/CarosSoftLight.ttf
+        - asset: fonts/CarosSoft/CarosSoftMedium.ttf
+        - asset: fonts/CarosSoft/CarosSoftThin.ttf
