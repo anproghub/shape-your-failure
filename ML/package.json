@@ -1,0 +1,22 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-node": "^3.9.0",
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-sentiment": "https://github.com/martinrue/node-sentiment/tarball/master",
+    "nodemon": "^2.0.13",
+    "nsfwjs": "^2.4.1"
+  }
+}
