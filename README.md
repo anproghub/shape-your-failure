@@ -1,6 +1,6 @@
 <h1 align="center">Shape your Failures</i></h1>
 <h2 align="center"><i>Show off your Failures</i></h2>
-<h2 align="center">✨Submitted to Buildgroop Hacks✨</h4>
+<h2 align="center">✨ Submitted to Hack3 ✨</h4>
 <p align="center"><img alt="pic" height="600" width="300px"  src="https://user-images.githubusercontent.com/99386803/155870067-40a76286-aefc-4e29-aa49-616ce949d0ad.gif"/>
 </p>
 <hr>
