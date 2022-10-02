@@ -51,7 +51,7 @@ exports.updateAPost = catchAsync(async(req, res, next) => {
     let post = await Post.findOne({ _id: req.params.id, userId: req.user._id });
 
     if (!post) {
-        return next(new AppError('Post not found!', 404));
+        return next(new AppError('Post not found!', 404 | 'Process failed Reload Again', 404));
     }
 
     console.log(req.body.tags);
